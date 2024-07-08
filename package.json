@@ -1,0 +1,27 @@
+{
+  "name": "saebyn-twitch-splashes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@preact/signals-react": "^2.0.0",
+    "obs-websocket-js": "^5.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "twitch-js": "^2.0.0-beta.45"
+  },
+  "devDependencies": {
+    "@types/obs-studio": "^2.17.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}

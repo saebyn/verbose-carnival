@@ -1,0 +1,23 @@
+/*
+  This CSS module is for the dock widget in OBS. It is used to style the
+  elements there and the style should match the style of the rest of the
+  application.
+*/
+
+.button {
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  white-space: nowrap;
+}
