@@ -22,7 +22,7 @@ To run the project, you need to have [Node.js](https://nodejs.org/en/) installed
 
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
 This will start the project and display the URL where you can access it.
